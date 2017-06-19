@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/sj_qbzp.css "/>
+	</head>
+	<body>
+		<div class="box">
+			<header class="header">
+				<p><img src="../../6.9项目/个人中心/img/s11.gif"/></p>
+				<ul>
+					<li>首页</li>
+					<li>婚纱照</li>
+					<li>话题</li>
+					<li>分享</li>
+				</ul>
+				<p class="p1"><img src="../../6.9项目/个人中心/img/s0.gif"/>失忆蝴蝶</p>
+			</header>
+			
+			<div class="content_1">
+				<div class="content">
+				<u>公主号 > 商家列表  > 唯一视觉婚纱摄影>全部套系</u>
+				<p class="p2">
+					<span>唯一视觉婚纱摄影(浦东新区店) <br/>
+					<img src="../../6.9项目/个人中心/img/s13.gif"/>
+				    </span>
+					<button class="bt1">预约看店</button>
+					<button>进入店铺</button>
+				</p>
+				<p class="p3">
+					<span>婚纱摄影</span>
+					<span>|</span>
+					<span>旅游婚纱</span>
+					
+				</p>
+				<div class="imgs" >
+					
+				</div>
+				<div class="imgs">
+					
+				</div>
+				<div class="imgs" id="imgs2">
+					<!--<div>
+						<img class="img" src="../../6.9项目/个人中心/img/2.gif"/>
+						<span class="pan">The GreatGatsby </span>
+						<p><span class="span1">韩国星印象婚纱摄影</span>
+						   <span><img src="../../6.9项目/个人中心/img/s14.gif"/>56</span>
+						</p>
+					</div>
+					<div>
+						<img class="img" src="../../6.9项目/个人中心/img/3.gif"/>
+						<span class="pan">溢彩琉年THE SHINING HOUR </span>
+						<p><span class="span1">Dream9婚礼公馆</span>
+						   <span><img src="../../6.9项目/个人中心/img/s14.gif"/>56</span>
+						</p>
+					</div>
+					<div>
+						<img class="img" src="../../6.9项目/个人中心/img/4.gif"/>
+						<span class="pan">我们流浪于山水之间-台湾记</span>
+						<p><span class="span1">漫回忆海外婚纱摄影</span>
+						   <span><img src="../../6.9项目/个人中心/img/s14.gif"/>56</span>
+						</p>
+					</div>-->
+				</div>
+				<div class="imgs" id="imgs3">
+					<!--<div>
+						<img class="img" src="../../6.9项目/个人中心/img/8.gif"/>
+						<span class="pan">The GreatGatsby </span>
+						<p><span class="span1">韩国星印象婚纱摄影</span>
+						   <span><img src="../../6.9项目/个人中心/img/s14.gif"/>56</span>
+						</p>
+					</div>
+					<div>
+						<img class="img" src="../../6.9项目/个人中心/img/3_03.png"/>
+						<span class="pan">溢彩琉年THE SHINING HOUR </span>
+						<p><span class="span1">Dream9婚礼公馆</span>
+						   <span><img src="../../6.9项目/个人中心/img/s14.gif"/>56</span>
+						</p>
+					</div>
+					<div>
+						<img class="img" src="../../6.9项目/个人中心/img/1.jpg"/>
+						<span class="pan">我们流浪于山水之间-台湾记</span>
+						<p><span class="span1">漫回忆海外婚纱摄影</span>
+						   <span><img src="../../6.9项目/个人中心/img/s14.gif"/>56</span>
+						</p>
+					</div>-->
+				</div>
+				<p class="footer">
+					<span class="sapn1">上一页</span>
+					<span class="sapn2">1</span>
+					<span>2</span>
+					<span>3</span>
+					<span>4</span>
+					<span>5</span>
+					<span>下一页</span>
+				</p>
+			</div>
+			<aside>
+				<div class="aside_1">
+					<img class="img1" src="../../6.9项目/个人中心/img/b12.gif"/>
+					<p>全新《encounte》系列 <br />
+					   <span>唯一视觉婚纱摄影</span>
+					</p>
+					<span class="span1">¥5200</span>
+				</div>
+				<div >
+					<img src="../../6.9项目/个人中心/img/5.gif"/>
+					<p>全新《encounte》系列 <br />
+					   <span>唯一视觉婚纱摄影</span>
+					</p>
+					<span class="span1">¥5200</span>
+				</div>
+				<div >
+					<img src="../../6.9项目/个人中心/img/6.gif"/>
+					<p>全新《encounte》系列 <br />
+					   <span>唯一视觉婚纱摄影</span>
+					</p>
+					<span class="span1">¥5200</span>
+				</div>
+				<div >
+					<img src="../../6.9项目/个人中心/img/7.gif"/>
+					<p>全新《encounte》系列 <br />
+					   <span>唯一视觉婚纱摄影</span>
+					</p>
+					<span class="span1">¥5200</span>
+				</div>
+			</aside>
+			</div>
+			<!--twitter-->
+		</div>
+	</body>
+	
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../js/baidutemplate.js"></script>
+	
+	<script id="tpl" type="text/html">
+    <%for(var i = 0; i< list.length;i++){%>
+	      <div>
+	          <img class="img" src="<%=list[i].img%>"/>
+	          <span class="pan"><%=list[i].pan%></span>
+	          <p>
+	          	<span class="span1"><%=list[i].span1%></span>
+	          	<span><img src="<%=list[i].span%>" /> <%=list[i].font%></span>
+	          </p>
+	        </div>
+    <%}%>
+</script>
+
+<script>
+
+$.get('http://localhost:3012/getdata',function(res){
+console.log(res)
+var html=baidu.template('tpl',res);
+$(".imgs").html(html)
+})
+
+</script>
+</html>
